@@ -1,6 +1,6 @@
 two's complement - why we use it:
 
-two's complement can be used to simplify mathematical operations or change how they are approached, even reuse existing code. for example in the case of A - B = C, this equation could be computationally performed as A + (B's 2's complement) = C. 
+two's complement can be used to reverse the sign of an integer, simplify mathematical operations or change how they are approached, even reuse existing code as a result. for example in the case of A - B = C, this equation could be computationally performed as A + (B's 2's complement) = C. 
 
 
 >"to reverse the sign of integers ... you can take the two's complement of its binary representation" 
