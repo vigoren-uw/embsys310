@@ -1,7 +1,5 @@
 Aaron Vigoren
-
 EMBSYS 310 - AU20
-
 ASSIGNMENT 02
 
 
