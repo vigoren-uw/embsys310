@@ -1,6 +1,9 @@
 Aaron Vigoren
+
 EMBSYS 310 - AU20
+
 ASSIGNMENT 02
+
 
 Observe and answer:
 Create a new IAR project with the following program in a main.c file, then follow the questions below:
