@@ -1,5 +1,3 @@
-// swap program based on guidance from 
-// https://stackoverflow.com/questions/8403447/swapping-pointers-in-c-char-int
 
 #include<assert.h>
 void swapCharsAsm(char* a, char* b);
