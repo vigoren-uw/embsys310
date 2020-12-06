@@ -83,7 +83,8 @@ control_user_led1
 
     Off: 
     LDR R5, [R2] // loads the value pointed to by p_GPIOA_ODR
-    EOR R5, R5, #0x20 // xor to turn off // Set bit[5] to 1 --> 0x20; // Turn LED ON      
+    ORR R5, R5, #0x20 // or to set bit to know value         
+    BIC R5, R5, #0x20 // inverts 0x20 bits makig bit[5]=0 and all others 1 -- then logical ands with R5/GPIOA_ODR value       
     STR R5, [R2] // store
     BL delay // enters delay() branch
     BX R3 // exit per LR in R3
